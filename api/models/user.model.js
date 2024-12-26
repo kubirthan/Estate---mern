@@ -17,7 +17,7 @@ const userSchema = new mongoose.Schema({
     },
     avatar: {
         type: String,
-        default:""
+        default:"https://static.vecteezy.com/ti/vecteur-libre/p1/2387693-icone-de-profil-utilisateur-vectoriel.jpg"
     }
 }, {timestamps: true})
 
